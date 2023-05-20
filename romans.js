@@ -35,6 +35,12 @@ function init() {
     } else {
       alert(convertion.message);
     }
+    
+    gtag('event', 'pressed_convert', {
+    'ConversionIntegerToRoman': modeCheckbox.checked,
+    'ConversionRomanToInteger': !modeCheckbox.checked,
+    });
+    
   });
 
 }
