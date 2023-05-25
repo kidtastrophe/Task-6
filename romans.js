@@ -36,6 +36,7 @@ function init() {
       alert(convertion.message);
     }
     
+    // eslint-disable-next-line no-undef
     gtag('event', 'pressed_convert', {
       'ConversionIntegerToRoman': modeCheckbox.checked,
       'ConversionRomanToInteger': !modeCheckbox.checked,
