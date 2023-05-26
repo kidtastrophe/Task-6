@@ -38,8 +38,7 @@ function init() {
     
     // eslint-disable-next-line no-undef
     gtag('event', 'pressed_convert', {
-      'ConversionIntegerToRoman': modeCheckbox.checked,
-      'ConversionRomanToInteger': !modeCheckbox.checked,
+      'ConversionIsIntegerToRoman': modeCheckbox.checked,
     });
     
   });
